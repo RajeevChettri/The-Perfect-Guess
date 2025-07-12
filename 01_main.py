@@ -1,8 +1,9 @@
 # To guess number from 1 to 100
 import random as r
 n = r.randint(1,100)
+print(n)
 print("Guess the number from 1 to 100!")
-guesses = 0
+guesses = 1
 a = -1
 while(a != n):
     a = int(input("Guess the number: "))
@@ -11,7 +12,7 @@ while(a != n):
         print("Lower number please")
         guesses += 1
         
-    else:
+    elif(n>a):
         print("Higher number please")
         guesses +=1
 
