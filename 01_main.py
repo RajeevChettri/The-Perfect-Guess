@@ -1,7 +1,6 @@
 # To guess number from 1 to 100
 import random as r
 n = r.randint(1,100)
-print(n)
 print("Guess the number from 1 to 100!")
 guesses = 1
 a = -1
